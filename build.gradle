@@ -31,4 +31,5 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile files('./lib/io.indico-3.15.0-jar-with-dependencies.jar')
 }
